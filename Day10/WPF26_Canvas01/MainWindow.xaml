@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF26_Canvas01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF26_Canvas01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Canvas>
+        <Button Canvas.Left="40">Top left</Button>
+        <Button Canvas.Right="80">Top right</Button>
+        <Label Content="Label Text" Canvas.Bottom="110" Canvas.Left="110"/>
+        <Button Canvas.Left="20" Canvas.Bottom="10">Bottom left</Button>
+        <Button Canvas.Right="40" Canvas.Bottom="10">Bottom left</Button>
+    </Canvas>
+</Window>

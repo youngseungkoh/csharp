@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="0,0,-0.4,0">
-        <Label Content="Ahhhhhhhhhhhhhh" HorizontalAlignment="Left" Margin="44,124,0,0" VerticalAlignment="Top" Height="136" Width="260" FontSize="24"/>
+        <Label Content="여기를 바꾸면 반영" HorizontalAlignment="Left" Margin="44,124,0,0" VerticalAlignment="Top" Height="136" Width="260" FontSize="24"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="64" Margin="319,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" RenderTransformOrigin="0.5,0.5" FontSize="24">
             <TextBox.RenderTransform>
                 <TransformGroup>
